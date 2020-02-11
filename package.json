@@ -1,0 +1,26 @@
+{
+  "name": "bitmap-challenge",
+  "version": "0.0.0",
+  "license": "MIT",
+  "main": "src/index.ts",
+  "scripts": {
+    "format": "prettier --write \"src/**/*.ts\" --write \"package.json\"",
+    "format:check": "prettier --check \"src/**/*.ts\" --check \"package.json\"",
+    "start": "ts-node src/index.ts",
+    "test": "jest"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^25.1.2",
+    "jest": "^25.1.0",
+    "prettier": "^1.18.2",
+    "prettier-plugin-packagejson": "^2.0.1",
+    "ts-jest": "^25.2.0",
+    "ts-node": "^8.6.2",
+    "tslint": "5.13.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-eslint-rules": "5.4.0",
+    "tslint-plugin-prettier": "2.0.1",
+    "typescript": "^3.7.5"
+  }
+}
